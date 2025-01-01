@@ -24,7 +24,7 @@ Once the containers are running, follow these steps to create the `tasks` table 
 To access the MySQL container, run the following command:
 
 ```bash
-docker exec -it mysql-todo mysql -u root -p
+docker exec -it mysql mysql -u root -p
 ```
 ```sql
 USE todo_db;

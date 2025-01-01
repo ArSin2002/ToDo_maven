@@ -12,7 +12,7 @@ This project is a ToDo application built using Dropwizard and MySQL. The followi
  `docker-compose.yml` file is already created, simply run the following command to start the containers:
 
 ```bash
-docker-compose up
+docker-compose up --build -d
 ```
 
 ## Step 2: Create the `tasks` Table in MySQL

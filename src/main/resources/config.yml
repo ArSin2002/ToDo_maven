@@ -1,0 +1,20 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8000
+  adminConnectors:
+    - type: http
+      port: 8081
+
+
+database:
+  driverClass: com.mysql.cj.jdbc.Driver        # MySQL JDBC driver
+  # user: root                                  # MySQL root username
+  # password: root                               # MySQL root password
+  # url: jdbc:mysql://localhost:3000/todo_db?useSSL=false&serverTimezone=UTC   # URL to the database
+  user: root                                # MySQL root username
+  password: root                             # MySQL root password
+  url: jdbc:mysql://mysql:3306/todo_db # URL to the database
+  maxSize: 10                                  # Maximum connections in the pool
+  minSize: 1                                   # Minimum connections in the pool
+

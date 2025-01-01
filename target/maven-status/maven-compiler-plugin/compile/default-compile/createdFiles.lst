@@ -1,0 +1,8 @@
+com/example/todo/enums/Status.class
+com/example/todo/TodoApplication$2.class
+com/example/todo/TodoApplication.class
+com/example/todo/TaskConfiguration.class
+com/example/todo/models/Task.class
+com/example/todo/resources/TaskResource.class
+com/example/todo/db/TaskDAO.class
+com/example/todo/TodoApplication$1.class
